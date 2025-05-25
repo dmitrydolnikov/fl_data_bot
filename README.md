@@ -20,9 +20,10 @@ QWEN_API_KEY=sk-your-api-key
 ```
 
 #How to run the tool:
+
 (use -v or -verbose to see the detailed tool output)
 
-1.single run and exit
+1. single run and exit
 ```bash
 python main.py "how many freelancers there are in data set?"
 ```
