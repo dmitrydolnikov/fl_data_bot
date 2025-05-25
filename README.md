@@ -8,7 +8,7 @@ Jupiter Notebook contains steps with examples how to use this tool interactively
 
 main.py contains the code to run the tool in a command line style
 
-# Installation and usage
+## Installation and usage
 ```bash
 git clone https://github.com/dmitrydolnikov/lg_time_bot.git
 python -m venv .venv && source .venv/bin/activate
@@ -19,7 +19,7 @@ set .env with your API key
 QWEN_API_KEY=sk-your-api-key
 ```
 
-#How to run the tool:
+## How to run the tool:
 
 (use -v or -verbose to see the detailed tool output)
 
@@ -32,7 +32,7 @@ python main.py "how many freelancers there are in data set?"
 python main.py
 ```
 
-#Questions examples
+## Questions examples
 - how much more profitable freelancers taking crypto?
 - How many freelancers are there in the dataset?
 - What is the distribution of earnings among freelancers?
@@ -41,3 +41,4 @@ python main.py
 - Насколько выше доход у фрилансеров, принимающих оплату в криптовалюте, по сравнению с другими способами оплаты?
 - Как распределяется доход фрилансеров в зависимости от региона проживания?
 - Какой процент фрилансеров, считающих себя экспертами, выполнил менее 100 проектов?
+
