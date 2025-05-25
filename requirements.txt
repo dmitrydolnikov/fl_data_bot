@@ -2,4 +2,6 @@ pandas
 dotenv
 langchain_openai
 langchain_experimental
+tabulate
+matplotlib
 
