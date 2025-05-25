@@ -10,10 +10,10 @@ main.py contains the code to run the tool in a command line style
 
 # Installation and usage
 ```bash
-git clone ```https://github.com/dmitrydolnikov/lg_time_bot.git```
+git clone https://github.com/dmitrydolnikov/lg_time_bot.git
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-````
+```
 set .env with your API key
 ```bash
 QWEN_API_KEY=sk-your-api-key
@@ -21,7 +21,7 @@ QWEN_API_KEY=sk-your-api-key
 
 #How to run the tool:
 (use -v or -verbose to see the detailed tool output)
-```bash
+
 1.single run and exit
 ```bash
 python main.py "how many freelancers there are in data set?"
@@ -31,8 +31,7 @@ python main.py "how many freelancers there are in data set?"
 python main.py
 ```
 
-#questions examples
-
+#Questions examples
 - how much more profitable freelancers taking crypto?
 - How many freelancers are there in the dataset?
 - What is the distribution of earnings among freelancers?
