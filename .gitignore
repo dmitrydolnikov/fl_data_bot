@@ -1,5 +1,7 @@
 ./.*
 .venv
 .env
-
+#also do not forget to add .env to .git/info/exclude
+# or use the following command to ignore the .env file
+#git update-index --assume-unchanged .env
 

@@ -48,8 +48,8 @@ def main():
         verbose=args.verbose,  # Enable verbose logging for debugging
     )
 
-    response = agent.invoke("What are the columns in the dataset and their data types?")
-    print(response["output"])
+    #response = agent.invoke("What are the columns in the dataset and their data types?")
+    #print(response["output"])
 
 
     if args.question:
