@@ -1,21 +1,25 @@
 # fl_data_bot
 this is pandas dataframe tool integration example (from langchain)
+
 data used for test is from https://www.kaggle.com/datasets/shohinurpervezshohan/freelancer-earnings-and-job-trends?select=freelancer_earnings_bd.csv
 
-Jupiter Notebook contains steps with examples how to use this tool
+Jupiter Notebook contains steps with examples how to use this tool interactively
+
+
 main.py contains the code to run the tool in a command line style
 
-set .env with your API key
-```bash
-QWEN_API_KEY=sk-your-api-key
-```
 # Installation and usage
 ```bash
 git clone ```https://github.com/dmitrydolnikov/lg_time_bot.git```
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ````
-example of how to run the tool:
+set .env with your API key
+```bash
+QWEN_API_KEY=sk-your-api-key
+```
+
+#How to run the tool:
 (use -v or -verbose to see the detailed tool output)
 ```bash
 1.single run and exit
